@@ -1,9 +1,9 @@
 
 body {
-  background-color: lightgray;
+  background-color: lightgray;    /*makes body section of page lightgray*/
 }
 
-header {
+header {                          /*sets font and font-color for header, underlines the text in black, sets the header section as grey and pads the text from the top and bottom*/
   font-family: Zen Tokyo Zoo;
   color: black;
   text-decoration: underline;
@@ -12,48 +12,48 @@ header {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-hr {
+hr {                              /*makes divider line black and 2px high*/
   height: 2px;
   color: black; 
 }
-h3 {
+h3 {                              /*changes font, then underlines it in whitesmoke*/
   font-family: Oswald;
   text-decoration: underline;
   text-decoration-color: whitesmoke;
 }
 
-h2 {
+h2 {                              /*changes font, then underlines it in whitesmoke*/
   font-family: Zen Tokyo Zoo;
   text-decoration: underline;
   text-decoration-color: whitesmoke;
 }
 
 li {
-  font-family: Oswald;
+  font-family: Oswald;            /*changes font, then centers the list including it's bullet points or numbers*/
   text-align: center;
   list-style-position: inside;
 }
 
-footer {
+footer {                          /*makes footer section 100px, grey formats it to have no padding from the bottom*/
 height: 100px;
 background: grey; 
 padding-bottom: 0;
 }
 
-.footer-text {
+.footer-text {                    /*sets text in footer to white and pads it from the top*/
   color:white;
   padding-top: 40px;
 }
 
-.ol-tweak {
+.ol-tweak {                       /*adjusts for lack of centering on ordered lists*/
   padding-right: 50px;
 }
 
-p{
+p{                                /*changes font, centers text*/
   font-family: Oswald;
   text-align: center;
 }
-.resize-map {
+.resize-map {                     /*centers image, resizes picture of phx map to right size*/
   display: block;
   width: 300px;
   height: auto;
@@ -63,7 +63,7 @@ p{
   padding-bottom: 20px;
 }
 
-.resize-me {
+.resize-me {                      /*centers image, resizes picture of phx me to right size*/
   display: block;
   width: 25%;
   height: auto;
@@ -72,14 +72,14 @@ p{
   padding-top: 25px;
 }
 
- .text-center {
+ .text-center {                   /*centers text*/
   text-align: center;
 }
 
-.ul-tweak {
+.ul-tweak {                       /*adjusts for lack of centering on unordered lists*/
   padding-right: 55px;
 }
-.wrapper {
+.wrapper {                      /*formats footer to fill bottom of screen*/
   width: 350px;
   margin: auto;
 }
